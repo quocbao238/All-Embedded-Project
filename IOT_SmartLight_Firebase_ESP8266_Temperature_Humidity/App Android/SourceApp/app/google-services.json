@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672942750109",
+    "firebase_url": "https://doandtb.firebaseio.com",
+    "project_id": "doandtb",
+    "storage_bucket": "doandtb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672942750109:android:e409235f2a06377dc29774",
+        "android_client_info": {
+          "package_name": "bao.bon.smartlight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672942750109-ghljbsoreh8uhau0g0q1tnbbvvrap2sr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bao.bon.smartlight",
+            "certificate_hash": "badde2b9ee60a3a505f0f200e57d018dc5541b44"
+          }
+        },
+        {
+          "client_id": "672942750109-kvitcd3aigf9kiud2uim21cfb4pn8i6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnCO0HyeevxpKEHO5vtaNPVLC4t6rRXfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672942750109-kvitcd3aigf9kiud2uim21cfb4pn8i6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

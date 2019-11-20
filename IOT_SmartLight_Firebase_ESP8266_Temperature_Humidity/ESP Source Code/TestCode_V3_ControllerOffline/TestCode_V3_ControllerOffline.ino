@@ -103,6 +103,7 @@ void readEvent() {
       handingeventbtn(path, data);
     }
   }
+  yield();
 }
 
 void handingeventbtn(String path, String data) {
@@ -176,6 +177,7 @@ void rsdSensor() {
   // timeReadSensor = millis();
 
   // Lần 1 : mililis = 11s - timereadSensor(0s) > 10 --> dọc sensor
-        +timeReadSensor  =  11s 
+//        +timeReadSensor  =  11s 
   // Lần 2 khi : millis = 22s - .....
+  yield();
 }

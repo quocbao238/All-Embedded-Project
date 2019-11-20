@@ -22,8 +22,8 @@
 /*
     Id wifi và password
 */
-#define WIFI_SSID ""    
-#define WIFI_PASSWORD "duahaudo"
+#define WIFI_SSID "dongta123"    
+#define WIFI_PASSWORD "taydocne123"
 
 DHT dht(DHTPIN, DHTTYPE);       // Constructor
 

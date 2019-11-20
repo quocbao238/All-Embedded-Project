@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "841647065226",
+    "firebase_url": "https://humitemp-5fa8e.firebaseio.com",
+    "project_id": "humitemp-5fa8e",
+    "storage_bucket": "humitemp-5fa8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841647065226:android:a1a419bd38a8eade",
+        "android_client_info": {
+          "package_name": "bao.bon.appcontroller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841647065226-bc8j1kt5lcikqeij8c0h7b8j6echlci9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bao.bon.appcontroller",
+            "certificate_hash": "badde2b9ee60a3a505f0f200e57d018dc5541b44"
+          }
+        },
+        {
+          "client_id": "841647065226-9lrq8gi64frsluoa2jrsp4fajoiqlbe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEttYMon2QRnfZGNzCiucG9HCUnc7t4DI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841647065226-9lrq8gi64frsluoa2jrsp4fajoiqlbe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

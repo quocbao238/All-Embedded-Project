@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgorund"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".Stability">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Stability \nTemperature - Humidity"
+        android:textColor="#E62121"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RealTemp larger StabilityTemp\n Switch Tap Faucet Water OFF"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:text="RealTemp smaller StabilityTem - Difference\n Switch Tap Faucet Water ON"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:text="RealHumi smaller StabilityHumi\n Switch Moisture Spray ON"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:text="RealHumi larger StabilityHumi - Difference\n Switch Moisture Spray OFF"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_StaTemp"
+            android:text="Stability Temp"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <EditText
+            android:hint="Input Temp"
+            android:textColorHint="#020000"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:gravity="right"
+            android:textSize="24sp"
+            android:id="@+id/edt_StaTemp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:text="Difference"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <EditText
+            android:id="@+id/edt_difTemp"
+            android:hint="Input Temp"
+            android:textColorHint="#020000"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:gravity="right"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_StaHumi"
+            android:text="Stalibity Humi"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <EditText
+            android:id="@+id/edt_StaHumi"
+            android:hint="Input Humi"
+            android:textColorHint="#020000"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:gravity="right"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:text="Difference"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <EditText
+            android:id="@+id/edt_difHumi"
+            android:hint="Input Humi"
+            android:textColorHint="#020000"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:gravity="right"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="#0D5679"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtPassword_signUp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/btnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="#38AA48"
+                    android:gravity="center"
+                    android:text="Save"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</LinearLayout>
